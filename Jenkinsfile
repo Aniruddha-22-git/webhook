@@ -1,6 +1,6 @@
 pipeline{
-  agent any {
-    customWorkspace '/mnt/slave1'
+  agent {
+    label 'built-in'
   }
   stages{
     stage('stage1'){
